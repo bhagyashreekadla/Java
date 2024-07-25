@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Pattern6 {
+	public static void main(String[] args) {
+		Scanner scan=new Scanner (System.in);
+		
+	System.out.println("enter the number of month between 1 to 12");
+	int num=scan.nextInt();
+	if(num==12 || num==1 || num==2)
+		System.out.println("month is winter");
+	else if(num==3||num==4||num==5) 
+		System.out.println("month is spring");
+	else if(num==6||num==7||num==8)
+		System.out.println("month is summer ");
+	else if(num==9||num==10||num==11)
+		System.out.println("number is rainy");
+	else
+		System.out.println("error:invalid number");
+
+ //OUTPUT
+enter the number of month between 1 to 12
+2
+month is winter
+	
