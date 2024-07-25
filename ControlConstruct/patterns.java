@@ -1,6 +1,6 @@
 package kodnest;
 import java.util.Scanner;
-public class prog1{
+public class patterns{
 	public static void main(String[] args) {	
 		 for(int i=1;i<=3;i++) {
 			 for( int j=5;j>=(2*i-1);j--){
